@@ -1,0 +1,116 @@
+{
+  "Hero": {
+    "title": "Oliva Beach Apartment",
+    "subtitle": "Vaš útěk k moru v Oliva Nova, Španielsko"
+  },
+  "About": {
+    "title": "O apartmáne",
+    "text1": "Užite si dokonalý východ slnka priamo nad morom a príjemnú dovolenkovú atmosféru v našom štýlovom apartmáne v Olive Nova. Nachádza sa len pár krokov od nekonečných pláží - a takmer bez ľudí! Zažite pokoj, slnko a šum mora každý deň.",
+    "text2": "Apartmán s výhľadom na more ponúka 2 spálne, obývačku s rozkladacou pohovkou, plne vybavenú kuchyňu a 1 kúpeľňu. V blizkosti nájdete reštaurácie, supermarket a všetko, čo potrebujete pre bezstarostnú dovolenku.",
+    "highlights": {
+      "guests": "6 Hostí",
+      "bedrooms": "2 Spálne",
+      "terrace": "Krytá terasa",
+      "bathroom": "1 Kúpeľňa",
+      "pool": "Klimatizácia",
+      "airport": "Letisko 60 min autom",
+      "beach": "Pláž 2 min pešo",
+      "restaurants": "Reštaurácie 5 min pešo"
+    }
+  },
+  "Gallery": {
+    "title": "Galéria",
+    "view": "Zobraziť",
+    "viewAll": "Zobraziť celú galériu"
+  },
+  "Pricing": {
+    "title": "Cenník",
+    "lowSeason": "Nízka sezóna (Okt - Máj)",
+    "middleSeason": "Stredná sezóna (Jún & Sept)",
+    "highSeason": "Hlavná sezóna (Júl & Aug)",
+    "longTerm": "Dlhodobo (Okt - Máj)",
+    "perDay": "/ deň",
+    "perMonth": "/ mesiac",
+    "note": "* Ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnych dátumov a sviatkov. Cena za dlhodobý prenájom nezahŕňa energie."
+  },
+  "Availability": {
+    "title": "Dostupnosť"
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "writeUs": "Napíšte nám",
+    "findUs": "Kde nás nájdete",
+    "name": "Meno",
+    "email": "Email",
+    "message": "Správa",
+    "send": "Odoslať správu",
+    "address": "Adresa",
+    "phone": "Telefón",
+    "email_label": "Email"
+  },
+  "Equipment": {
+    "title": "Vybavenie apartmánu",
+    "bedroom1": {
+      "label": "Spálňa 1",
+      "items": "Manželská posteľ, Posteľná bielizeň, Klimatizácia, Výhľad na more"
+    },
+    "bedroom2": {
+      "label": "Spálňa 2",
+      "items": "2 samostatné postele, Posteľná bielizeň, Klimatizácia"
+    },
+    "livingroom": {
+      "label": "Obývačka",
+      "items": "Rozkladacia pohovka, Jedálenský stôl, TV, Internet, Klimatizácia, Výhľad na more, Krytá terasa s vonkajším nábytkom"
+    },
+    "kitchen": {
+      "label": "Kuchyňa",
+      "items": "Chladnička, Elektrická rúra, Mikrovlnka, Kávovar Dolce gusto, Hriankovač, Umývačka riadu, Práčka"
+    },
+    "bathroom": {
+      "label": "Kúpeľňa",
+      "items": "Vaňa, WC a umývadlo, Fén, Uteráky"
+    }
+  },
+  "Resort": {
+    "title": "Vybavenie Rezortu",
+    "subtitle": "Všetko pre vašu dokonalú dovolenku",
+    "text": "Náš apartmán je súčasťou krásneho rezortného komplexu s veľkými bazénmi a udržiavanými záhradami. Je to ideálne miesto na oddych po dni strávenom na pláži.",
+    "pools": "2 Bazény",
+    "gardens": "Rozľahlé záhrady",
+    "parking": "50m od pláže"
+  },
+  "Location": {
+    "title": "Oliva Nova",
+    "description": "Objavte krásu Oliva Nova, skrytého klenotu na pobreží Costa Blanca. S jeho nekonečnými piesočnatými plážami, svetovo uznávaným golfovým ihriskom a množstvom športových aktivít je to ideálne miesto pre relaxáciu aj dobrodružstvo.",
+    "restaurants": {
+      "title": "Reštaurácie v okolí",
+      "olibaba": "Olibaba - Štýlový plážový klub s nezameniteľnou atmosférou a skvelým jedlom.",
+      "riomar": "Camping Rio Mar - Tradičná kuchyňa a priateľské prostredie len kúsok od apartmánu.",
+      "darbar": "Darbar - Autentická indická reštaurácia s bohatou ponukou chutí.",
+      "alavora": "Alavora - Prvotriedna reštaurácia so zameraním na čerstvé morské plody.",
+      "tiorico": "Tio Rico el Italiano - Tradičná talianska kuchyňa s rodinnou atmosférou."
+    },
+    "establishments": {
+      "title": "Nákupy v okolí",
+      "mercadona": "Mercadona Oliva - Najväčší a najobľúbenejší supermarket v Olive pre vaše nákupy.",
+      "portal": "Portal de la Marina - Veľké obchodné centrum v Ondare so širokou ponukou obchodov, reštaurácií a kina."
+    },
+    "sports": {
+      "title": "Športové aktivity",
+      "kitesurf": "Kitesurfing / Wingfoil - Oliva je rajom pre milovníkov vetra a vĺn.",
+      "karting": "Karting - Zažite adrenalín na neďalekom okruhu Karting Vives.",
+      "golf": "Golfové ihrisko - 18-jamkový areál navrhnutý legendárnym Severianom Ballesterosom.",
+      "padel": "Padel - Moderné kurty pre obľúbený španielsky raketový šport."
+    }
+  },
+  "Navigation": {
+    "home": "Domov",
+    "about": "Apartmán",
+    "gallery": "Galéria",
+    "pricing": "Cenník",
+    "availability": "Dostupnosť",
+    "booking": "Rezervácia",
+    "contact": "Kontakt",
+    "location": "Oliva Nova"
+  }
+}

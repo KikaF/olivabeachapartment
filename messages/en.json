@@ -1,0 +1,116 @@
+{
+    "Hero": {
+        "title": "Oliva Beach Apartment",
+        "subtitle": "Your seaside escape in Oliva Nova, Spain"
+    },
+    "About": {
+        "title": "About the Apartment",
+        "text1": "Enjoy the perfect sunrise right over the sea and a pleasant holiday atmosphere in our stylish apartment in Oliva Nova. Located just steps away from endless beaches - and almost without people! Experience peace, sun, and the sound of the sea every day.",
+        "text2": "The sea-view apartment offers 2 bedrooms, a living room with a sofa bed, a fully equipped kitchen, and 1 bathroom. Nearby you will find restaurants, a supermarket, and everything you need for a carefree holiday.",
+        "highlights": {
+            "guests": "6 Guests",
+            "bedrooms": "2 Bedrooms",
+            "terrace": "Covered Terrace",
+            "bathroom": "1 Bathroom",
+            "pool": "Air conditioning",
+            "airport": "Airport 60 min by car",
+            "beach": "Beach 2 min walk",
+            "restaurants": "Restaurants 5 min walk"
+        }
+    },
+    "Gallery": {
+        "title": "Gallery",
+        "view": "View",
+        "viewAll": "View Full Gallery"
+    },
+    "Pricing": {
+        "title": "Rates",
+        "lowSeason": "Low season (Oct - May)",
+        "middleSeason": "Middle season (June & Sept)",
+        "highSeason": "High season (July & Aug)",
+        "longTerm": "Long Term (Oct - May)",
+        "perDay": "/ day",
+        "perMonth": "/ month",
+        "note": "* Prices are indicative and may vary depending on specific dates and holidays. Long term price excludes energy costs."
+    },
+    "Availability": {
+        "title": "Availability"
+    },
+    "Contact": {
+        "title": "Contact",
+        "writeUs": "Write to us",
+        "findUs": "Where to find us",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message",
+        "address": "Address",
+        "phone": "Phone",
+        "email_label": "Email"
+    },
+    "Equipment": {
+        "title": "Apartment Equipment",
+        "bedroom1": {
+            "label": "Bedroom 1",
+            "items": "King size bed, Bed linen, Air condition, Sea view"
+        },
+        "bedroom2": {
+            "label": "Bedroom 2",
+            "items": "2 single beds, Bed linen, Air condition"
+        },
+        "livingroom": {
+            "label": "Living Room",
+            "items": "Sofa bed, Dining table, Tv, Internet, Air condition, Sea view, Covered terrace with outdoor furniture"
+        },
+        "kitchen": {
+            "label": "Kitchen",
+            "items": "Fridge, Electric oven, Microwave, Coffee machine Dolce gusto, Toaster, Dishwasher, Washing machine"
+        },
+        "bathroom": {
+            "label": "Bathroom",
+            "items": "Bath tub, Wc and washbasin, Hair dryer, Towels"
+        }
+    },
+    "Resort": {
+        "title": "Resort Amenities",
+        "subtitle": "Everything you need for a perfect holiday",
+        "text": "Our apartment is part of a beautiful resort complex featuring large swimming pools and well-maintained gardens. It's the perfect place to relax after a day at the beach.",
+        "pools": "2 Swimming Pools",
+        "gardens": "Lush Gardens",
+        "parking": "50m from the beach"
+    },
+    "Location": {
+        "title": "Oliva Nova",
+        "description": "Discover the beauty of Oliva Nova, a hidden gem on the Costa Blanca. With its endless sandy beaches, world-renowned golf course, and a variety of sports activities, it is the perfect place for both relaxation and adventure.",
+        "restaurants": {
+            "title": "Restaurants in the Area",
+            "olibaba": "Olibaba - A stylish beach club with a unique atmosphere and great food.",
+            "riomar": "Camping Rio Mar - Traditional cuisine and a friendly environment just a short walk from the apartment.",
+            "darbar": "Darbar - An authentic Indian restaurant with a rich variety of flavors.",
+            "alavora": "Alavora - A first-class restaurant specializing in fresh seafood.",
+            "tiorico": "Tio Rico el Italiano - Traditional Italian cuisine with a family atmosphere."
+        },
+        "establishments": {
+            "title": "Shopping in the Area",
+            "mercadona": "Mercadona Oliva - The largest and most popular supermarket in Oliva for all your grocery needs.",
+            "portal": "Portal de la Marina - A large shopping center in Ondara with a wide range of shops, restaurants, and a cinema."
+        },
+        "sports": {
+            "title": "Sports Activities",
+            "kitesurf": "Kitesurfing / Wingfoil - Oliva is a paradise for wind and wave lovers.",
+            "karting": "Karting - Experience adrenaline at the nearby Karting Vives circuit.",
+            "golf": "Golf Course - An 18-hole course designed by the legendary Severiano Ballesteros.",
+            "padel": "Padel - Modern courts for the popular Spanish racket sport."
+        }
+    },
+    "Navigation": {
+        "home": "Home",
+        "about": "Apartment",
+        "gallery": "Gallery",
+        "pricing": "Pricing",
+        "availability": "Availability",
+        "booking": "Booking",
+        "contact": "Contact",
+        "location": "About Location"
+    }
+}

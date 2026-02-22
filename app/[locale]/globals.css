@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #013545;
+  --color-accent: #e0f7fa;
+  --color-darkGray: #333333;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: white;
+    color: var(--color-darkGray);
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-4 py-12 sm:px-8 sm:py-16 lg:px-16;
+  }
+}
