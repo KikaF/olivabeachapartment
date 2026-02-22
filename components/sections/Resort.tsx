@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { FaSwimmingPool, FaTree, FaParking } from "react-icons/fa";
+import { FaSwimmingPool, FaUmbrellaBeach } from "react-icons/fa";
+import { GiPalmTree } from "react-icons/gi";
 
 export default function Resort() {
     const t = useTranslations("Resort");
 
     const amenities = [
         { icon: <FaSwimmingPool />, label: t("pools") },
-        { icon: <FaTree />, label: t("gardens") },
-        { icon: <FaParking />, label: t("parking") },
+        { icon: <GiPalmTree />, label: t("gardens") },
+        { icon: <FaUmbrellaBeach />, label: t("parking") },
     ];
 
     return (
