@@ -13,10 +13,42 @@ export default function BookingForm() {
         message: ""
     });
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        alert("Booking request sent! We will contact you.");
-        console.log("Form submitted:", formData);
+        setIsSubmitting(true);
+
+        try {
+            const response = await fetch('/api/booking', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                alert("Booking request sent! We will contact you.");
+                setFormData({
+                    firstName: "",
+                    lastName: "",
+                    email: "",
+                    guests: "1",
+                    checkIn: "",
+                    checkOut: "",
+                    message: ""
+                });
+            } else {
+                const data = await response.json();
+                alert(`Error: ${data.error || 'Failed to send booking request.'}`);
+            }
+        } catch (error) {
+            console.error("Booking submit error:", error);
+            alert("An error occurred. Please try again later.");
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -122,9 +154,10 @@ export default function BookingForm() {
 
                         <button
                             type="submit"
-                            className="w-full bg-primary text-white font-bold py-4 rounded-xl shadow-lg hover:bg-cyan-600 hover:scale-[1.02] transition-all duration-300 uppercase tracking-widest text-lg"
+                            disabled={isSubmitting}
+                            className={`w-full font-bold py-4 rounded-xl shadow-lg transition-all duration-300 uppercase tracking-widest text-lg ${isSubmitting ? 'bg-gray-400 text-gray-200 cursor-not-allowed' : 'bg-primary text-white hover:bg-cyan-600 hover:scale-[1.02]'}`}
                         >
-                            Send Booking Request
+                            {isSubmitting ? 'Sending Request...' : 'Send Booking Request'}
                         </button>
                     </form>
                 </div>
