@@ -135,10 +135,10 @@ export default function CustomCalendar({ occupiedText }: { occupiedText: string 
                         <div
                             key={i}
                             className={`
-                                relative h-16 sm:h-24 border-transparent p-1 sm:p-2 transition-all flex flex-col
-                                ${!isCurrentMonth ? "bg-transparent pointer-events-none" : "bg-white text-gray-800 border-gray-100 border rounded-xl"}
+                                relative h-16 sm:h-24 p-1 sm:p-2 transition-all flex flex-col
+                                ${!isCurrentMonth ? "bg-transparent pointer-events-none" : "bg-white text-gray-800 border-gray-200 border rounded-xl hover:border-primary/50"}
                                 ${isToday && !occupied && isCurrentMonth ? "border-primary ring-1 ring-primary" : ""}
-                                ${occupied && isCurrentMonth ? "bg-red-50 border-red-100" : ""}
+                                ${occupied && isCurrentMonth ? "bg-red-50 border-red-200" : ""}
                             `}
                         >
                             {isCurrentMonth && (
