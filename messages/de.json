@@ -34,7 +34,9 @@
         "note": "* Die Preise sind Richtwerte und können je nach Datum und Feiertagen variieren. Langzeitpreis exklusive Energiekosten."
     },
     "Availability": {
-        "title": "Verfügbarkeit"
+        "title": "Verfügbarkeit",
+        "occupied": "Belegt",
+        "free": "Verfügbar"
     },
     "Contact": {
         "title": "Kontakt",

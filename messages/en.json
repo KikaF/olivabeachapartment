@@ -34,7 +34,9 @@
         "note": "* Prices are indicative and may vary depending on specific dates and holidays. Long term price excludes energy costs."
     },
     "Availability": {
-        "title": "Availability"
+        "title": "Availability",
+        "occupied": "Occupied",
+        "free": "Available"
     },
     "Contact": {
         "title": "Contact",

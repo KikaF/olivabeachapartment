@@ -34,7 +34,9 @@
     "note": "* Ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnych dátumov a sviatkov. Cena za dlhodobý prenájom nezahŕňa energie."
   },
   "Availability": {
-    "title": "Dostupnosť"
+    "title": "Dostupnosť",
+    "occupied": "Obsadené",
+    "free": "Voľné"
   },
   "Contact": {
     "title": "Kontakt",
