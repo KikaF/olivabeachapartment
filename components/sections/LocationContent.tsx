@@ -94,6 +94,16 @@ export default function LocationContent() {
                     description: t("establishments.portal"),
                     link: "https://portaldelamarina.org/",
                 },
+                {
+                    name: "San Fernando Supermarket",
+                    description: t("establishments.fernando"),
+                    link: "https://maps.app.goo.gl/gSr8AmBQpHmX9prg6?g_st=in",
+                },
+                {
+                    name: "Café Isabel",
+                    description: t("establishments.isabel"),
+                    link: "https://maps.app.goo.gl/Y9rKsd1jTMwSuSK36?g_st=in",
+                },
             ],
         },
         {
