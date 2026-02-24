@@ -57,6 +57,26 @@ export default function LocationContent() {
                     description: t("restaurants.tiorico"),
                     link: "https://www.tiorico.eu",
                 },
+                {
+                    name: "El Gaucho Steakhouse",
+                    description: t("restaurants.gaucho"),
+                    link: "https://www.elgauchojavea.com",
+                },
+                {
+                    name: "El Magazinos Denia",
+                    description: t("restaurants.magazinos"),
+                    link: "https://elsmagazinos.com",
+                },
+                {
+                    name: "Repulic Denia",
+                    description: t("restaurants.republic"),
+                    link: "https://republicdenia.com/index.php",
+                },
+                {
+                    name: "Bar BBQ Fuego Denia Marina",
+                    description: t("restaurants.fuego"),
+                    link: "https://www.fuegomarina.com/"
+                },
             ],
         },
         {
