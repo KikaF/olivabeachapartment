@@ -101,7 +101,9 @@
         "establishments": {
             "title": "Shopping in the Area",
             "mercadona": "Mercadona Oliva - The largest and most popular supermarket in Oliva for all your grocery needs.",
-            "portal": "Portal de la Marina - A large shopping center in Ondara with a wide range of shops, restaurants, and a cinema."
+            "portal": "Portal de la Marina - A large shopping center in Ondara with a wide range of shops, restaurants, and a cinema.",
+            "fernando": "San Fernando Supermarket - Right by the apartment, open every day until 10:00 PM.",
+            "isabel": "Café Isabel - A pleasant cafe and bakery near the apartment, ideal for breakfast, fresh pastries, and coffee."
         },
         "sports": {
             "title": "Sports Activities",
