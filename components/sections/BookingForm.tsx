@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useState } from "react";
 
@@ -20,10 +20,11 @@ export default function BookingForm() {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch('/api/booking', {
+            const response = await fetch('https://formspree.io/f/xgaeeklk', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Accept': 'application/json'
                 },
                 body: JSON.stringify(formData),
             });
