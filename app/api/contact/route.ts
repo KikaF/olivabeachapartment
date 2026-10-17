@@ -1,57 +1,31 @@
 import { NextResponse } from 'next/server';
-import { BrevoClient } from '@getbrevo/brevo';
-
-const brevoApiKey = process.env.BREVO_API_KEY;
 
 export async function POST(request: Request) {
     try {
-        const { name, email, message } = await request.json();
+        const body = await request.json();
 
-        if (!name || !email || !message) {
-            return NextResponse.json(
-                { error: 'Name, email, and message are required fields.' },
-                { status: 400 }
-            );
-        }
-
-        if (!brevoApiKey) {
-            console.warn('BREVO_API_KEY is not set. Simulating successful email send.');
-            return NextResponse.json({ success: true, message: 'Email simulated (no API key).' });
-        }
-
-        const contactEmail = process.env.CONTACT_EMAIL;
-        if (!contactEmail) {
-            console.error('CONTACT_EMAIL environment variable is missing.');
-            return NextResponse.json(
-                { error: 'Server configuration error. Please try again later.' },
-                { status: 500 }
-            );
-        }
-
-        // Initialize Brevo API
-        const brevo = new BrevoClient({
-            apiKey: brevoApiKey,
+        const response = await fetch("https://formspree.io/f/xgaeeklk", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify(body)
         });
 
-        const data = await brevo.transactionalEmails.sendTransacEmail({
-            subject: `New Contact Form Submission from ${name}`,
-            htmlContent: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message.replace(/\n/g, '<br>')}</p>
-      `,
-            sender: { name: "Contact Form", email: contactEmail },
-            to: [{ email: contactEmail }],
-            replyTo: { email: email, name: name }
-        });
-
-        return NextResponse.json({ success: true, data });
+        if (response.ok) {
+            return NextResponse.json({ success: true });
+        } else {
+            const data = await response.json();
+            return NextResponse.json(
+                { error: data.error || "Failed to submit form to Formspree." },
+                { status: response.status }
+            );
+        }
     } catch (error) {
-        console.error('Contact Form Error:', error);
+        console.error("Contact API Route Error:", error);
         return NextResponse.json(
-            { error: 'An unexpected error occurred or failed to send email.' },
+            { error: "An unexpected error occurred." },
             { status: 500 }
         );
     }
