@@ -4,7 +4,7 @@ export const revalidate = 3600;
 
 export async function GET() {
     try {
-        const url = 'https://calendar.google.com/calendar/ical/info%40olivabeachapartment.com/public/basic.ics';
+        const url = 'https://calendar.google.com/calendar/ical/olivabeachapartment23%40gmail.com/private-20df5be1c1eb528e0e4b4bf213500d61/basic.ics';
 
         const response = await fetch(url);
         if (!response.ok) {
